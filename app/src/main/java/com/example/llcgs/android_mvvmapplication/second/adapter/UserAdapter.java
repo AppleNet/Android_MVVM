@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import com.example.llcgs.android_mvvmapplication.R;
 import com.example.llcgs.android_mvvmapplication.databinding.ViewItemUserBinding;
-import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.second.model.PlayerModel;
 import com.example.llcgs.android_mvvmapplication.second.viewmodel.impl.ItemViewModelImpl;
 
 import java.util.Collections;
@@ -23,13 +23,13 @@ import java.util.List;
 
 public class UserAdapter extends RecyclerView.Adapter {
 
-    private List<LoginBean> list;
+    private List<PlayerModel> list;
 
     public UserAdapter() {
         list = Collections.emptyList();
     }
 
-    public void setList(List<LoginBean> list) {
+    public void setList(List<PlayerModel> list) {
         this.list = list;
     }
 
@@ -59,7 +59,7 @@ public class UserAdapter extends RecyclerView.Adapter {
             this.viewItemUserBinding = viewItemUserBinding;
         }
 
-        void bindUser(LoginBean loginBean){
+        void bindUser(PlayerModel loginBean){
             if(viewItemUserBinding.getItemLoginBean() == null){
                 viewItemUserBinding.setItemLoginBean(new ItemViewModelImpl(loginBean, itemView.getContext()));
             }

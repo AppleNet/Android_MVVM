@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 
-import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.second.model.PlayerModel;
 import com.example.llcgs.android_mvvmapplication.second.viewmodel.IItemViewModel;
 import com.example.llcgs.android_mvvmapplication.third.view.ThridActivity;
 
@@ -18,19 +18,19 @@ import com.example.llcgs.android_mvvmapplication.third.view.ThridActivity;
 
 public class ItemViewModelImpl implements IItemViewModel {
 
-    private LoginBean loginBean;
+    private PlayerModel loginBean;
     private Context context;
 
-    public ItemViewModelImpl(LoginBean loginBean, Context context) {
+    public ItemViewModelImpl(PlayerModel loginBean, Context context) {
         this.loginBean = loginBean;
         this.context = context;
     }
 
-    public LoginBean getLoginBean() {
+    public PlayerModel getLoginBean() {
         return loginBean;
     }
 
-    public void setLoginBean(LoginBean loginBean) {
+    public void setLoginBean(PlayerModel loginBean) {
         this.loginBean = loginBean;
     }
 
@@ -38,8 +38,8 @@ public class ItemViewModelImpl implements IItemViewModel {
         return loginBean.getName();
     }
 
-    public String getPwd(){
-        return loginBean.getPwd();
+    public String getAge(){
+        return loginBean.getAge();
     }
 
     @Override

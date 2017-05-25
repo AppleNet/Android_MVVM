@@ -10,6 +10,7 @@ import com.example.llcgs.android_mvvmapplication.R;
 import com.example.llcgs.android_mvvmapplication.second.adapter.UserAdapter;
 import com.example.llcgs.android_mvvmapplication.databinding.ActivitySecondBinding;
 import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.second.model.PlayerModel;
 import com.example.llcgs.android_mvvmapplication.second.viewmodel.ISecondViewModel;
 import com.example.llcgs.android_mvvmapplication.second.viewmodel.impl.SecondViewModelImpl;
 
@@ -41,9 +42,10 @@ public class SecondActivity extends AppCompatActivity {
         activitySecondBinding.setSecondViewModel(viewModel);
 
         UserAdapter userAdapter = new UserAdapter();
-        List<LoginBean> list = new ArrayList<>();
+        List<PlayerModel> list = new ArrayList<>();
         for (int i=0; i<=10; i++){
-            list.add(loginBean);
+            //list.add(loginBean);
+            list.add(new PlayerModel(loginBean.getName(), loginBean.getPwd(), "201", "闪电", "24.5"));
         }
         userAdapter.setList(list);
         activitySecondBinding.recyclerview.setAdapter(userAdapter);

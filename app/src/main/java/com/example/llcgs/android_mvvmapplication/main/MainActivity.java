@@ -1,4 +1,4 @@
-package com.example.llcgs.android_mvvmapplication.view;
+package com.example.llcgs.android_mvvmapplication.main;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -10,11 +10,13 @@ import android.widget.Toast;
 
 import com.example.llcgs.android_mvvmapplication.R;
 import com.example.llcgs.android_mvvmapplication.databinding.ActivityMainBinding;
-import com.example.llcgs.android_mvvmapplication.model.LoginBean;
-import com.example.llcgs.android_mvvmapplication.viewmodel.LoginViewModelImpl;
-import com.example.llcgs.android_mvvmapplication.viewmodel.impl.LoginViewModel;
+import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.main.view.LoginView;
+import com.example.llcgs.android_mvvmapplication.second.SecondActivity;
+import com.example.llcgs.android_mvvmapplication.main.viewmodel.LoginViewModelImpl;
+import com.example.llcgs.android_mvvmapplication.main.viewmodel.impl.LoginViewModel;
 
-public class MainActivity extends AppCompatActivity implements LoginView{
+public class MainActivity extends AppCompatActivity implements LoginView {
 
     private ActivityMainBinding activityMainBinding;
     private LoginViewModel loginViewModel;

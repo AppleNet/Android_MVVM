@@ -4,7 +4,7 @@
     <data>
         <variable
             name="itemLoginBean"
-            type="com.example.llcgs.android_mvvmapplication.model.LoginBean"/>
+            type="com.example.llcgs.android_mvvmapplication.main.model.LoginBean"/>
 
     </data>
 

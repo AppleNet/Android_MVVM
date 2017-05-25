@@ -1,9 +1,9 @@
-package com.example.llcgs.android_mvvmapplication.view;
+package com.example.llcgs.android_mvvmapplication.main.view;
 
-import com.example.llcgs.android_mvvmapplication.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
 
 /**
- * com.example.llcgs.android_mvvmapplication.view.LoginView
+ * com.example.llcgs.android_mvvmapplication.main.view.LoginView
  *
  * @author liulongchao
  * @since 2017/5/22

@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="loginBean"
-            type="com.example.llcgs.android_mvvmapplication.model.LoginBean" />
+            name="secondViewModel"
+            type="com.example.llcgs.android_mvvmapplication.second.viewmodel.ISecondViewModel" />
 
     </data>
 
@@ -20,13 +20,13 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{loginBean.name}" />
+            android:text="@{secondViewModel.user}" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{loginBean.pwd}" />
+            android:text="@{secondViewModel.pwd}" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerview"

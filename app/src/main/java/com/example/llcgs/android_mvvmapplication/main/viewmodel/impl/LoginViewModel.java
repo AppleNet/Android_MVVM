@@ -1,11 +1,11 @@
-package com.example.llcgs.android_mvvmapplication.viewmodel.impl;
+package com.example.llcgs.android_mvvmapplication.main.viewmodel.impl;
 
 import android.view.View;
 
-import com.example.llcgs.android_mvvmapplication.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
 
 /**
- * com.example.llcgs.android_mvvmapplication.viewmodel.impl.LoginViewModel
+ * com.example.llcgs.android_mvvmapplication.main.viewmodel.impl.LoginViewModel
  *
  * @author liulongchao
  * @since 2017/5/22

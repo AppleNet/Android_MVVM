@@ -1,10 +1,10 @@
-package com.example.llcgs.android_mvvmapplication.model;
+package com.example.llcgs.android_mvvmapplication.main.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * com.example.llcgs.android_mvvmapplication.model.LoginBean
+ * com.example.llcgs.android_mvvmapplication.main.model.LoginBean
  *
  * @author liulongchao
  * @since 2017/5/22

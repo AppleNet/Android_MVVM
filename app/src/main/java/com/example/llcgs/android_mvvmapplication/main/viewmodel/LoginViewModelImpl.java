@@ -1,4 +1,4 @@
-package com.example.llcgs.android_mvvmapplication.viewmodel;
+package com.example.llcgs.android_mvvmapplication.main.viewmodel;
 
 import android.support.design.widget.Snackbar;
 import android.util.Log;
@@ -6,12 +6,12 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.example.llcgs.android_mvvmapplication.databinding.ActivityMainBinding;
-import com.example.llcgs.android_mvvmapplication.model.LoginBean;
-import com.example.llcgs.android_mvvmapplication.view.LoginView;
-import com.example.llcgs.android_mvvmapplication.viewmodel.impl.LoginViewModel;
+import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.main.view.LoginView;
+import com.example.llcgs.android_mvvmapplication.main.viewmodel.impl.LoginViewModel;
 
 /**
- * com.example.llcgs.android_mvvmapplication.viewmodel.LoginViewModelImpl
+ * com.example.llcgs.android_mvvmapplication.main.viewmodel.LoginViewModelImpl
  *
  * @author liulongchao
  * @since 2017/5/22

@@ -1,4 +1,4 @@
-package com.example.llcgs.android_mvvmapplication.adapter;
+package com.example.llcgs.android_mvvmapplication.second.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
@@ -7,13 +7,13 @@ import android.view.ViewGroup;
 
 import com.example.llcgs.android_mvvmapplication.R;
 import com.example.llcgs.android_mvvmapplication.databinding.ViewItemUserBinding;
-import com.example.llcgs.android_mvvmapplication.model.LoginBean;
+import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
 
 import java.util.Collections;
 import java.util.List;
 
 /**
- * com.example.llcgs.android_mvvmapplication.adapter.UserAdapter
+ * com.example.llcgs.android_mvvmapplication.second.adapter.UserAdapter
  *
  * @author liulongchao
  * @since 2017/5/22

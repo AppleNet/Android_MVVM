@@ -6,7 +6,7 @@
     <data>
         <variable
             name="loginViewModel"
-            type="com.example.llcgs.android_mvvmapplication.viewmodel.impl.LoginViewModel" />
+            type="com.example.llcgs.android_mvvmapplication.main.viewmodel.impl.LoginViewModel" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            tools:context="com.example.llcgs.android_mvvmapplication.view.MainActivity"
+            tools:context="com.example.llcgs.android_mvvmapplication.main.MainActivity"
             tools:showIn="@layout/activity_main">
 
             <TextView

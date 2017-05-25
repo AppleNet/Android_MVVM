@@ -1,7 +1,5 @@
 package com.example.llcgs.android_mvvmapplication.second.viewmodel;
 
-import android.view.View;
-
 /**
  * com.example.llcgs.android_mvvmapplication.second.viewmodel.ISecondViewModel
  *
@@ -12,7 +10,6 @@ import android.view.View;
 
 public interface ISecondViewModel {
 
-    void onItemClick(View view);
     String getUser();
     String getPwd();
 }

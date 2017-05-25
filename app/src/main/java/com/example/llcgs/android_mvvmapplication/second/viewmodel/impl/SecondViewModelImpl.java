@@ -1,7 +1,5 @@
 package com.example.llcgs.android_mvvmapplication.second.viewmodel.impl;
 
-import android.view.View;
-
 import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
 import com.example.llcgs.android_mvvmapplication.second.viewmodel.ISecondViewModel;
 
@@ -19,12 +17,6 @@ public class SecondViewModelImpl implements ISecondViewModel {
 
     public SecondViewModelImpl(LoginBean loginBean) {
         this.loginBean = loginBean;
-    }
-
-
-    @Override
-    public void onItemClick(View view) {
-
     }
 
     @Override

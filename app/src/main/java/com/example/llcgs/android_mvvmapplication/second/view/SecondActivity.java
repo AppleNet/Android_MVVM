@@ -1,4 +1,4 @@
-package com.example.llcgs.android_mvvmapplication.second;
+package com.example.llcgs.android_mvvmapplication.second.view;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * com.example.llcgs.android_mvvmapplication.second.SecondActivity
+ * com.example.llcgs.android_mvvmapplication.second.view.SecondActivity
  *
  * @author liulongchao
  * @since 2017/5/22

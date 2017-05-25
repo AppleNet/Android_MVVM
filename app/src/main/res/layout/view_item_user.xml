@@ -4,15 +4,16 @@
     <data>
         <variable
             name="itemLoginBean"
-            type="com.example.llcgs.android_mvvmapplication.main.model.LoginBean"/>
+            type="com.example.llcgs.android_mvvmapplication.second.viewmodel.impl.ItemViewModelImpl"/>
 
     </data>
 
     <LinearLayout
         android:id="@+id/item_user"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:onClick="@{itemLoginBean::onItemClick}">
 
         <TextView
             android:id="@+id/item_name"
@@ -20,6 +21,16 @@
             android:layout_height="wrap_content"
             android:text="@{itemLoginBean.name}"/>
 
+        <TextView
+            android:id="@+id/item_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{itemLoginBean.pwd}"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cardview_dark_background"/>
     </LinearLayout>
 
 </layout>

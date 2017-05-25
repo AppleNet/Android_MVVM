@@ -12,7 +12,7 @@ import com.example.llcgs.android_mvvmapplication.R;
 import com.example.llcgs.android_mvvmapplication.databinding.ActivityMainBinding;
 import com.example.llcgs.android_mvvmapplication.main.model.LoginBean;
 import com.example.llcgs.android_mvvmapplication.main.view.LoginView;
-import com.example.llcgs.android_mvvmapplication.second.SecondActivity;
+import com.example.llcgs.android_mvvmapplication.second.view.SecondActivity;
 import com.example.llcgs.android_mvvmapplication.main.viewmodel.LoginViewModelImpl;
 import com.example.llcgs.android_mvvmapplication.main.viewmodel.impl.LoginViewModel;
 
